@@ -1,0 +1,18 @@
+- Flight
+- Reservasyon
+- Passenger
+
+# Flight
+    - Client
+        - Views (upcoming Flight) 
+    - Sfatt Members
+        - Views (All - Reservasyon)
+        - CRUD 
+
+# Reservasyon 
+    - Client
+        - CRUD Reservasyon (their own Reservasyon)
+
+    - Sfatt 
+        - CRUD Reservasyon (All Reservasyon)
+
