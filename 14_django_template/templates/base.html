@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block linkcss %}
+    <link rel="stylesheet" href="{% static 'main.css' %}" />
+    {% endblock linkcss %} {% block title %}
+    <title>Student</title>
+    {% endblock title %}
+  </head>
+  <body>
+    <h1>Navbar</h1>
+    {% block body %} {% endblock body %}
+    <h1>Footer</h1>
+  </body>
+</html>

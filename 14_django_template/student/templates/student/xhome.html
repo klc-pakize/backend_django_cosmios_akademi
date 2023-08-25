@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello this is home page........</h1>
+    <p>{{ title }}</p>
+    <p>{{ description }}</p>
+    <p>{{ number }}</p>
+    <p>{{ list1.1 }}</p>
+    <p>{{ list1.3.0 }}</p>
+    <p>{{ dict1.b }}</p>
+
+    <hr />
+
+    <ul>
+      {% for i in list1 %}
+      <li>{{ i }}</li>
+      {% endfor %}
+    </ul>
+
+    <hr />
+
+    {% if number == 111 %}
+    <p>Pakizenin numarası {{number}}</p>
+    {% else %}
+    <p>Pakizenin numarası {{number}} değil</p>
+    {% endif %}
+
+    <hr />
+
+    <p>{{ number | add:"2" }}</p>
+    <p>{{ title | capfirst }}</p>
+  </body>
+</html>
