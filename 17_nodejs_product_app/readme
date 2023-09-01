@@ -1,0 +1,5 @@
+Terminalde, aşağıdaki komutu çalıştırarak projenizin package.json dosyasındaki bağımlılıkları yükleyin:
+npm install
+Bu komut, projenizin kök dizinindeki package.json dosyasında listelenen bağımlılıkları otomatik olarak indirip, node_modules klasörüne yerleştirir.
+
+Bağımlılıklar yüklendikten sonra, artık proje çalışmaya hazır olmalıdır. 
