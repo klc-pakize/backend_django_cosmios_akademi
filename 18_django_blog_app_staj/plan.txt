@@ -1,0 +1,25 @@
+Category
+Blog
+Comment
+Likes
+PostView
+
+
+# Category
+    - Client
+        - Views
+    - Admin Members
+        - CRUD 
+
+# Blog
+     - Client
+        - Views (status 'p')
+        - CRUD (Own blogs - status 'p' - 'd')
+    - Admin Members
+        - CRUD (All blogs - status 'p' - 'd')
+
+# Comment
+    - Client
+        - Views
+        - CRUD (Own comment)
+
